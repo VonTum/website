@@ -1,0 +1,7 @@
+*.log
+www/dlStuff/
+www/dedekind/data
+www/.sass-cache/
+skiMusketiers.mp4
+boot_stick_backup/
+.git_old/

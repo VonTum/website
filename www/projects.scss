@@ -1,0 +1,197 @@
+
+#largeProjects {
+	display: grid;
+	align-items: start;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 5px;
+}
+
+#largeProjects {
+	div img {
+		width: 100%;
+	}
+}
+
+.projectContainer a {
+	text-decoration: none;
+	color: black;
+	
+	display: contents;
+	
+	&:hover div {
+		background-color: #dddddd;
+	}
+}
+
+.projectContainer {
+	img {
+		margin: 0px, 2px, 0px, 2px;
+	}
+	
+	.project {
+		border: 1px solid #666666;
+		padding: 2px;
+		background-color: white;
+	}
+	
+	h3, h4 {
+		font-weight: normal;
+	}
+}
+
+
+
+.projectDescription {
+	font-size: 12px;
+	overflow: hidden;
+}
+
+#smallProjects {
+	.projectInfo, .projectDescription {
+		height: 64px;
+		padding-right: 5px;
+	}
+	
+	img {
+		display: block;
+		width: 96px;
+		height: 64px;
+	}
+	
+	.projectInfo {
+	// border-right: 1px solid #666666;
+	position: relative;
+	
+	h4:nth-of-type(1) { // programming language
+		position: absolute;
+		top: 25px;
+		left: 0;
+		font-size: 14px;
+		
+	}
+	h4:nth-of-type(2) { // date
+		position: absolute;
+		bottom: 2px;
+		left: 0;
+		font-size: 14px;
+		font-style: italic;
+	}
+}
+}
+
+/*#smallProjects {
+	
+	.project {
+		height: 64px;
+		margin-top: 5px;
+		
+		display: grid;
+		
+		align-items: start;
+		grid-template-columns: auto 200px 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 4px;
+	}
+}*/
+
+#smallProjects {
+	display: grid;
+	align-items: start;
+	grid-template-columns: 100px 200px 5fr 1fr;
+	grid-template-rows: auto;
+	grid-row-gap: 5px;
+	
+	a {
+		display: contents;
+	}
+	
+	> div {
+		display: contents;
+	}
+	
+	.smallThumbnail {grid-column: 1;}
+	.projectInfo {grid-column: 2;}
+	.projectDescription {grid-column: 3;}
+}
+
+#smallProjects {
+	
+	
+	.smallThumbnail, .projectInfo, .projectDescription, .downloadArea {
+		border: 1px solid black;
+		padding: 2px;
+		background-color: white;
+		height: 64px;
+	}
+	
+	.smallThumbnail {
+		border-right: none; 
+	}
+
+	.projectInfo, .projectDescription {
+		border-left: none;
+	}
+	
+	.downloadArea {
+		border-left: none;
+	}
+}
+
+
+
+
+.projectInfo > h4 {
+	margin-left: 2px;
+}
+
+.downloadArea {
+	
+	text-align: center;
+	line-height: 64px;
+	font-size: 20px;
+	color: blue;
+}
+
+a:hover .downloadArea {
+	text-decoration: underline;
+}
+
+
+
+a:hover .smallThumbnail, a:hover .projectInfo, a:hover .projectDescription, a:hover .downloadArea {
+	background-color: #dddddd !important;
+}
+
+.projectInfo {
+	position: relative;
+}
+
+#largeProjects {
+	.projectInfo {
+		border: none;
+		padding-bottom: 2px;
+		
+		div {
+			h4 {
+				display: inline;
+				font-size: 14px;
+			}
+			h4:last-of-type{
+				font-style: italic;
+				float: right;
+			}
+		}
+		
+		
+	}
+	.project {
+		height: 100%;
+		box-sizing: border-box;
+	}
+	.projectDescription {
+		border-top: 1px solid black;
+		padding: 2px;
+		margin: -2px;
+	}
+}

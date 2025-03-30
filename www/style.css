@@ -1,0 +1,205 @@
+#largeProjects {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 5px; }
+
+#largeProjects div img {
+  width: 100%; }
+
+.projectContainer a {
+  text-decoration: none;
+  color: black;
+  display: contents; }
+  .projectContainer a:hover div {
+    background-color: #dddddd; }
+
+.projectContainer img {
+  margin: 0px, 2px, 0px, 2px; }
+.projectContainer .project {
+  border: 1px solid #666666;
+  padding: 2px;
+  background-color: white; }
+.projectContainer h3, .projectContainer h4 {
+  font-weight: normal; }
+
+.projectDescription {
+  font-size: 12px;
+  overflow: hidden; }
+
+#smallProjects .projectInfo, #smallProjects .projectDescription {
+  height: 64px;
+  padding-right: 5px; }
+#smallProjects img {
+  display: block;
+  width: 96px;
+  height: 64px; }
+#smallProjects .projectInfo {
+  position: relative; }
+  #smallProjects .projectInfo h4:nth-of-type(1) {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-size: 14px; }
+  #smallProjects .projectInfo h4:nth-of-type(2) {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    font-size: 14px;
+    font-style: italic; }
+
+/*#smallProjects {
+	
+	.project {
+		height: 64px;
+		margin-top: 5px;
+		
+		display: grid;
+		
+		align-items: start;
+		grid-template-columns: auto 200px 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 4px;
+	}
+}*/
+#smallProjects {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 100px 200px 5fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 5px; }
+  #smallProjects a {
+    display: contents; }
+  #smallProjects > div {
+    display: contents; }
+  #smallProjects .smallThumbnail {
+    grid-column: 1; }
+  #smallProjects .projectInfo {
+    grid-column: 2; }
+  #smallProjects .projectDescription {
+    grid-column: 3; }
+
+#smallProjects .smallThumbnail, #smallProjects .projectInfo, #smallProjects .projectDescription, #smallProjects .downloadArea {
+  border: 1px solid black;
+  padding: 2px;
+  background-color: white;
+  height: 64px; }
+#smallProjects .smallThumbnail {
+  border-right: none; }
+#smallProjects .projectInfo, #smallProjects .projectDescription {
+  border-left: none; }
+#smallProjects .downloadArea {
+  border-left: none; }
+
+.projectInfo > h4 {
+  margin-left: 2px; }
+
+.downloadArea {
+  text-align: center;
+  line-height: 64px;
+  font-size: 20px;
+  color: blue; }
+
+a:hover .downloadArea {
+  text-decoration: underline; }
+
+a:hover .smallThumbnail, a:hover .projectInfo, a:hover .projectDescription, a:hover .downloadArea {
+  background-color: #dddddd !important; }
+
+.projectInfo {
+  position: relative; }
+
+#largeProjects .projectInfo {
+  border: none;
+  padding-bottom: 2px; }
+  #largeProjects .projectInfo div h4 {
+    display: inline;
+    font-size: 14px; }
+  #largeProjects .projectInfo div h4:last-of-type {
+    font-style: italic;
+    float: right; }
+#largeProjects .project {
+  height: 100%;
+  box-sizing: border-box; }
+#largeProjects .projectDescription {
+  border-top: 1px solid black;
+  padding: 2px;
+  margin: -2px; }
+
+body {
+  margin: 0px;
+  font-family: 'Arial', sans-serif;
+  background-color: #eeeeff; }
+
+#mainContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px; }
+
+h2, h3, h4, h5, h6 {
+  margin: 0px; }
+
+h1 {
+  margin: 3px; }
+
+#meName {
+  line-height: 50px;
+  font-size: 20px;
+  float: right;
+  margin-right: 5px; }
+
+#menuBar {
+  height: 44px;
+  background-color: #eeeeee;
+  color: #444444;
+  font-size: 20px;
+  line-height: 44px;
+  border: 1px solid black;
+  border-bottom: none;
+  display: inline-block; }
+  #menuBar .menuItem {
+    display: inline-block; }
+    #menuBar .menuItem a {
+      padding: 0px 10px 0px 10px;
+      display: block;
+      line-height: 44px;
+      text-decoration: none;
+      color: black; }
+      #menuBar .menuItem a:hover {
+        background-color: #dddddd;
+        text-shadow: 1px 1px 2px #FFFFFF, 1px -1px 2px #FFFFFF, -1px 1px 2px #FFFFFF, -1px -1px 2px #FFFFFF; }
+
+#content {
+  background-color: #aaccff;
+  border: 1px solid black;
+  padding: 4px; }
+
+p {
+  margin-top: 0px;
+  margin-bottom: 8px; }
+  p:last-of-type {
+    margin-bottom: 0px; }
+
+.contentBox {
+  background-color: white;
+  border: 1px solid black;
+  padding: 7px; }
+
+#meImg {
+  float: right;
+  border: 1px solid black;
+  border-radius: 50px; }
+
+@media screen and (min-width: 750px) {
+  .halfBox {
+    width: 50%;
+    box-sizing: border-box; }
+
+  #meImg {
+    margin-right: 150px; }
+
+  #mainContainer {
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */

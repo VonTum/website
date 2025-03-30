@@ -1,0 +1,8 @@
+/www/dedekind/Paderborn10min.mkv filter=lfs diff=lfs merge=lfs -text
+/www/publications/sus_compiler/susTUDresden1hrWithHeckling.mp4 filter=lfs diff=lfs merge=lfs -text
+/www/projects/physics3D/physics3D[[:space:]]v1.4.zip filter=lfs diff=lfs merge=lfs -text
+/www/projects/physics3D/physics3D[[:space:]]v1.5.rar filter=lfs diff=lfs merge=lfs -text
+/www/projects/physics3D/physics3D[[:space:]]v1.6.rar filter=lfs diff=lfs merge=lfs -text
+/www/projects/physics3D/physics3D[[:space:]]v1.7.rar filter=lfs diff=lfs merge=lfs -text
+/www/projects/physics3D/physics3D[[:space:]]v1.8.rar filter=lfs diff=lfs merge=lfs -text
+/www/publications/sus_compiler/susTUDresden33Min.mp4 filter=lfs diff=lfs merge=lfs -text

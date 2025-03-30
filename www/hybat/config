@@ -1,0 +1,19 @@
+worlds["hybat1"]= "/var/www/hybat1/map/world"
+
+renders["hybat1-north"] = {
+    "world": "hybat1",
+    "title": "Hybat 1.0 map North",
+    "rendermode": smooth_lighting,
+    "dimension": "overworld",
+    
+}
+
+renders["hybat1-South"] = {
+    "world": "hybat1",
+    "title": "Hybat 1.0 map South",
+    "rendermode": smooth_lighting,
+    "dimension": "overworld",
+    "northdirection" : "lower-right",
+
+}
+outputdir = "/var/www/hybat1"

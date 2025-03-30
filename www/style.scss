@@ -1,0 +1,111 @@
+$headerHeight: 44px;
+
+@import "projects";
+
+body {
+	margin: 0px;
+	font-family: 'Arial', sans-serif;
+	background-color: #eeeeff;
+}
+
+#mainContainer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+h1 {
+	margin: 3px;
+}
+
+#meName {
+	line-height: 50px;
+	font-size: 20px;
+	float: right;
+	margin-right: 5px;
+}
+
+#menuBar {
+	height: $headerHeight;
+	background-color: #eeeeee;
+	color: #444444;
+	font-size: 20px;
+	line-height: $headerHeight;
+	border: 1px solid black;
+	border-bottom: none;
+	display: inline-block;
+	
+	.menuItem {
+		
+		display: inline-block;
+		
+		a {
+			padding: 0px 10px 0px 10px;
+			display: block;
+			line-height: $headerHeight;
+			text-decoration: none;
+			color: black;
+			
+			&:hover {
+				background-color: #dddddd;
+				text-shadow: 
+					1px 1px 2px #FFFFFF,
+					1px -1px 2px #FFFFFF,
+					-1px 1px 2px #FFFFFF,
+					-1px -1px 2px #FFFFFF;
+			}
+		}
+	}
+}
+
+#content {
+	background-color: #aaccff;
+	border: 1px solid black;
+	padding: 4px;
+	
+	
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 8px;
+	&:last-of-type{
+		margin-bottom: 0px;
+	}
+}
+
+.contentBox {
+	background-color:white;
+	border:1px solid black;
+	padding:7px;
+}
+
+#meImg {
+	float:right;
+	border:1px solid black;
+	border-radius:50px;
+}
+
+@media screen and (min-width: 750px) {
+	.halfBox {
+		width: 50%;
+		box-sizing:border-box;
+	}
+	
+	#meImg {
+		margin-right:150px;
+	}
+	
+	#mainContainer {
+		margin-top: 20px;
+	}
+}
+
+
+
+@media screen and (min-width: 750px) {
+}

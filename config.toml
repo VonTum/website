@@ -19,6 +19,7 @@ highlight_theme = "css"
 [extra]
 # Put all your custom variables here
 
+# Enable Latex for Equations
 katex = true
 
 menu = [
@@ -51,3 +52,5 @@ taxonomies = [{name = "tags", feed = true}]
 
 # favicon = "img/favicon.png"
 favicon_emoji = "🦗"
+
+

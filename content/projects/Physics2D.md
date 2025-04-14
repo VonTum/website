@@ -1,7 +1,7 @@
 +++
 title = "Physics2D"
 description = "A basic 2D Physics Simulator written in Java and OpenGL"
-weight = 2
+weight = 8
 template = "page.html"
 
 # [taxonomies]

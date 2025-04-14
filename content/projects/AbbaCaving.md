@@ -1,7 +1,7 @@
 +++
 title = "AbbaCaving"
 description = "A Minecraft plugin to support the 'Abba Caving' minigame"
-weight = 2
+weight = 9
 template = "page.html"
 
 # [taxonomies]

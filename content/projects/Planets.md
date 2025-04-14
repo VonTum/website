@@ -1,7 +1,7 @@
 +++
 title = "Planets"
 description = "My oldest ever little Java project"
-weight = 3
+weight = 10
 template = "page.html"
 
 # [taxonomies]

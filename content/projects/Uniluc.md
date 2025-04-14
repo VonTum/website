@@ -1,7 +1,7 @@
 +++
 title = "Uniluc"
 description = "A former KU Leuven Gaming Community, mostly focussed on Minecraft, 7 days to die, Factorio, and other servers"
-weight = 1
+weight = 2
 template = "page.html"
 
 # [taxonomies]

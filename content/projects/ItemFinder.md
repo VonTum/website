@@ -1,7 +1,7 @@
 +++
 title = "ItemFinder"
 description = "A Minecraft plugin to find your items more easily"
-weight = 2
+weight = 9
 template = "page.html"
 
 # [taxonomies]

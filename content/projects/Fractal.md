@@ -1,7 +1,7 @@
 +++
 title = "Fractal"
 description = "A Java Mandelbrot & Julia Fractal displayer"
-weight = 3
+weight = 10
 template = "page.html"
 
 # [taxonomies]

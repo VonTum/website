@@ -1,7 +1,7 @@
 +++
 title = "z80 Assembly Maze Generator"
 description = "A very fast Maze Generator written in z80 assembly"
-weight = 3
+weight = 10
 template = "page.html"
 
 # [taxonomies]

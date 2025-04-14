@@ -1,7 +1,7 @@
 +++
 title = "SUS Hardware Description Language"
 description = "A new Hardware Description Language to compete with the likes of SystemVerilog and VHDL"
-weight = 1
+weight = 0
 template = "page.html"
 
 # [taxonomies]
@@ -18,3 +18,6 @@ I'm working on this actively during my PhD position at the [Paderborn Center for
 More information can be found on the repository: [https://github.com/pc2/sus-compiler](https://github.com/pc2/sus-compiler)
 
 It also has a website now: [https://sus-lang.org](https://sus-lang.org), or a more trendy [https://sus.rocks](https://sus.rocks). 
+
+## Sample SUS Code
+![Example Code](/img/SUS_Code_Sample.png)
